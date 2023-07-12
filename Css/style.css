@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header  */
+.header_container {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+
+    list-style-type: none;
+
+}
+
+.header_logo {
+    position: relative;
+}
+
+#header_p {
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    font-size: 30px;
+}
+
+#image {
+    width: 60px;
+}
+
+.header_card {
+    position: relative;
+}
+
+button {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+
+}
+
+/* reolge main  */
+main {
+  height: 800px;
+    background-color: aqua;
+}
+.wrapper{
+    padding-top: 40px;
+}
+.contenitore{
+
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 0px;
+   
+}
+.square{
+    float: left;
+    width: calc(100% / 10);
+    height:calc(100% / 10) ;
+    border: solid 2px black;
+}
+.clicked{
+    background-color:blue;
+}
+.clicked_bomb{
+    background-color: red;
+}
